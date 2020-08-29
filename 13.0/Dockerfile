@@ -1,7 +1,7 @@
 FROM debian:buster-slim
 LABEL maintainer="NoCompany S.L. <alejperez99@hotmail.es>"
 
-RUN echo" Hello "
+RUN echo "Hello"
 
 SHELL ["/bin/bash", "-xo", "pipefail", "-c"]
 
