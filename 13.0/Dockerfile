@@ -1,8 +1,6 @@
 FROM debian:buster-slim
 LABEL maintainer="NoCompany S.L. <alejperez99@hotmail.es>"
 
-RUN echo "Hello"
-
 SHELL ["/bin/bash", "-xo", "pipefail", "-c"]
 
 # Generate locale C.UTF-8 for postgres and general locale data
